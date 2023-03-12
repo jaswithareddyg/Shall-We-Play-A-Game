@@ -18,7 +18,8 @@ https://developer.apple.com/forums/thread/76700 <br>
 Gesture Recognizer and Pan Gesture <br>
 https://cocoacasts.com/swift-fundamentals-working-with-pan-gesture-recognizers-in-swift <br>
 https://www.kodeco.com/6747815-uigesturerecognizer-tutorial-getting-started <br>
-https://stackoverflow.com/questions/28675209/how-to-call-gesture-tap-on-uiview-programmatically-in-swift <br>
+https://stackoverflow.com/questions/29558622/pan-gesture-why-need-settranslation-to-zero <br>
+https://daddycoding.com/2017/09/08/ios-tutorials-introduction-uigesturerecognizer/ <br>
 
 
 # Notes
