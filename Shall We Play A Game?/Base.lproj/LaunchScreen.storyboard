@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shall We Play A Game?" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P48-T3-FIY">
+                                <rect key="frame" x="16" y="153" width="361" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="V6o-Xv-Ab7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jaswitha Reddy Guntaka" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QjT-94-2dk">
+                                <rect key="frame" x="16" y="522" width="361" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="6V1-pn-kr0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CNET ID: jaswithareddy" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZO-3o-kaz">
+                                <rect key="frame" x="16" y="597" width="361" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="P48-T3-FIY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="7oQ-VG-jR9"/>
+                            <constraint firstItem="P48-T3-FIY" firstAttribute="trailing" secondItem="QjT-94-2dk" secondAttribute="trailing" id="DN5-ug-RPC"/>
+                            <constraint firstItem="P48-T3-FIY" firstAttribute="trailing" secondItem="7ZO-3o-kaz" secondAttribute="trailing" id="FGv-Ja-QJR"/>
+                            <constraint firstItem="7ZO-3o-kaz" firstAttribute="top" secondItem="QjT-94-2dk" secondAttribute="bottom" constant="3" id="MCg-DD-A3e"/>
+                            <constraint firstItem="P48-T3-FIY" firstAttribute="leading" secondItem="7ZO-3o-kaz" secondAttribute="leading" id="QSq-dd-yKP"/>
+                            <constraint firstItem="P48-T3-FIY" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="Zus-lc-sjc"/>
+                            <constraint firstAttribute="bottom" secondItem="QjT-94-2dk" secondAttribute="bottom" constant="258" id="eRo-YZ-bKd"/>
+                            <constraint firstItem="P48-T3-FIY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="eT5-45-6kv"/>
+                            <constraint firstItem="P48-T3-FIY" firstAttribute="leading" secondItem="QjT-94-2dk" secondAttribute="leading" id="mzi-0N-Fcx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+</document>
