@@ -13,13 +13,13 @@ class Grid {
     
     var squares = [0, 0, 0, 0, 0, 0, 0, 0, 0]
     
-    // all rows, columns, and diagonals
+    // winningcombinations include all rows, columns, and diagonals
     let winningCombinations = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]
     
     var winner = [Int]()
     
-    // Check whether the winner occurs
     func check() {
+        // checking for a win
         for combination in winningCombinations {
             if squares[combination[0]] != 0 && squares[combination[0]] == squares[combination[1]] && squares[combination[1]] == squares[combination[2]] {
                 if squares[combination[0]] == 1 {
@@ -31,8 +31,7 @@ class Grid {
                 }
             }
         }
-        
-        // Check whether ties
+        // checking for a tie
         let tie = squares.allSatisfy { $0 > 0 }
         if tie && winner.isEmpty {
             winner = [3]

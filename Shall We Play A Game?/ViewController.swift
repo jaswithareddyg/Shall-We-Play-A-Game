@@ -138,7 +138,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         }
     }
     
-    func compareOverlap(piece: UIView, square: UIView) -> Bool {
+    func comparingOverlap(piece: UIView, square: UIView) -> Bool {
         let pieceRec = CGRect(x: piece.center.x, y: piece.center.y, width: 80, height: 80)
         let squareRec = CGRect(x: square.center.x, y: square.center.y, width: 80, height: 80)
         return pieceRec.intersects(squareRec)
@@ -183,7 +183,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             if recognizer.state == .ended {
                 var overlapping = false
                 for i in 0...8 {
-                    if compareOverlap(piece: view, square: collectionOfSquares![i]) &&
+                    if comparingOverlap(piece: view, square: collectionOfSquares![i]) &&
                         grid.squares[i] == 0
                     {
                         UIView.animate(withDuration: 0.5) {
