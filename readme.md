@@ -58,6 +58,12 @@ Welcome to the Tic Tac Toe game – an interactive two-player experience designe
 - Drawing the Grid: [Stack Overflow](https://stackoverflow.com/questions/52841082/how-to-override-drawrect-function-in-uiview-swift)
 - Gesture Recognizer and Pan Gesture: [CocoaCasts](https://cocoacasts.com/swift-fundamentals-working-with-pan-gesture-recognizers-in-swift)
 
+## Additional Information
+
+- This project was developed using Xcode and Swift.
+- For issues or questions, contact [(Jas) Jaswitha](mailto:jaswithareddyguntaka@gmail.com).
+
+
 Note: Challenges may exist, such as the InfoView's disappearance issue.
 
 Enjoy playing Tic Tac Toe with your friends on a single device! 🎮👥
